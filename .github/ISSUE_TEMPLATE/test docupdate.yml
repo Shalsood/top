@@ -1,0 +1,34 @@
+name: Documentation Update📄
+description: Suggest how we can improve our documentation
+title: "Documentation📄: "
+labels: [documentation]
+
+
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to file a Documentation update report
+  - type: textarea
+  attributes:
+      label: Provide the Document name?
+      description: "State the name and path of the documents for which the changes are suggested."
+  - type: textarea
+    attributes:
+      label: What is the current documentation state?
+      description: "Copy and paste the text currently in the documentation. If you want to improve graphs or photos, please provide a screenshot of the original."
+  - type: textarea
+    attributes:
+      label: Where is this stated?
+      description: "Provide additional information about the location in the document where you have copied the above statement from."
+  - type: textarea
+    attributes:
+      label: Please provide the reason for the changes?
+      description: "Please explain why the document needs to be updated. This can be because it is confusing, incorrect, spelling/grammatical errors, etc."
+  - type: textarea
+    attributes:
+      label: Proposed Changes
+      description: "Please propose how you would rewrite the part of the document. If you have a precise proposal, please make the changes and open a pull request."
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: "Add any other context or useful information about the documentation update here."
