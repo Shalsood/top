@@ -1,13 +1,13 @@
 name: Documentation Update📄
 description: Suggest how we can improve our documentation
-title: "Documentation📄: "
+title: "test📄: "
 labels: [documentation]
 
 
 body:
   - type: markdown
     attributes:
-      value: Thank you for taking the time to file a Documentation update report
+      value: Thank you a Documentation update report
   - type: textarea
     attributes:
       label: What is the current documentation state?
