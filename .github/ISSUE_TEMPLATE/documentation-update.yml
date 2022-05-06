@@ -1,62 +1,30 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+name: Documentation Update📄
+description: Suggest how we can improve our documentation
+title: "Documentation📄: "
+labels: [documentation]
+
+
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+      value: Thank you for taking the time to file a Documentation update report
   - type: textarea
-    id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: What is the current documentation state?
+      description: "Copy and paste the text currently in the documentation. If you want to improve graphs or photos, please provide a screenshot of the original."
   - type: textarea
-    id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: Where is this stated?
+      description: "Provide additional information about the location where you have copied the above statement from."
+  - type: textarea
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Why do you want to improve the statement?
+      description: "Please explain why the statement needs to be updated. This can be because it is confusing, incorrect, spelling/grammatical errors, etc."
+  - type: textarea
+    attributes:
+      label: Proposed Statement
+      description: "Please propose how you would rewrite the statement. If you have a precise proposal, please make the changes and open a pull request."
+  - type: textarea
+    attributes:
+      label: Additional context.
+      description: "Add any other context or useful information about the documentation update here."
